@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class MethodReferenceExample {
     public static void main(String[] args) {
-        List<String> someWords = Arrays.asList("Some","Words","To","Be","Capitalized");
+        List<String> someWords = Arrays.asList("These","Words","Should","Be","Capitalized");
         List<String> toUpUp = someWords.stream()
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());

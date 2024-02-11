@@ -11,6 +11,6 @@ public class IntermediateOperationsExample {
                 .filter(s -> s.length() > 5)
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());
-        System.out.println("Look at these bigl ong words: " + longYellingWords);
+        System.out.println("Look at these capitalized long words: " + longYellingWords);
     }
 }
